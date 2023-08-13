@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Starting Lineup</h1>
+    </header>
+    <form action="/action_page.php">
+      <fieldset>
+        <legend>status:</legend>
+        <input type="radio" id="draft" name="status" value="draft" />
+        <label for="draft">Draft</label>
+        <input type="radio" id="final" name="status" value="final" checked />
+        <label for="final">Final</label>
+      </fieldset>
+      <label>Date: </label>
+      <select name="gameDate">
+        <option value="march20">March 20</option>
+        <option value="march24">March 24</option>
+        <option value="april2">April 2</option>
+        <option value="april6">April 6</option>
+        <option value="april13">April 13</option>
+      </select>
+
+      <fieldset>
+        <legend>Players:</legend>
+        <input
+          type="checkbox"
+          id="aaravaggarwal"
+          name="player"
+          value="aaravaggarwal"
+        />
+        <label for="aaravaggarwal">Aarav Agarwal</label> <br />
+
+        <input
+          type="checkbox"
+          id="avajohnson"
+          name="player"
+          value="avajohnson"
+        />
+        <label for="avajohnson">Ava Johnson</label> <br />
+
+        <input type="checkbox" id="mohit" name="player" value="mohit" />
+        <label for="mohit">Mohit</label> <br />
+
+        <input type="checkbox" id="Rohan" name="player" value="Rohan" />
+        <label for="Rohan">Rohan</label> <br />
+      </fieldset>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>

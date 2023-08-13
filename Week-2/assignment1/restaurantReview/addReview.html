@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+      }
+      ul li {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant Reviews</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./addReview.html">Add Review</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <h1>Add Review</h1>
+        <label for="name">Name?</label>
+        <input type="text" id="name" name="name" /><br/>
+
+        <label for="restaurant">Restaurant?</label>
+        <select name="restaurant">
+          <option>Greek house</option>
+          <option>main street cafe</option>
+        </select><br/>
+
+        <label for="date">date of visit??</label>
+        <input type="date" id="date" name="date" /> <br/>
+
+        <label for="rating">Rating?</label>
+        <input type="number" name="rating" /><br/>
+
+       <input type="submit" value="Submit" />
+      </form>
+    </main>
+
+    <footer>
+      <p>@2023 Restaurant reviews</p>
+    </footer>
+  </body>
+</html>
