@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .star {
+        color: red;
+      } */
+      form {
+        /* width: 400px; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* background-color: red; */
+      }
+      .star::after {
+        content: "*";
+        color: red;
+      }
+      input,
+      textarea {
+        width: 300px;
+        padding: 10px;
+        margin: 2px;
+      }
+      form > div {
+        display: flex;
+        /* justify-content: space-between; */
+      }
+      form > div > label {
+        width: 110px;
+        /* background-color: green; */
+      }
+      button {
+        width: 100px;
+        height: 50px;
+        border: 1px solid black;
+      }
+      input[type="submit"] {
+        width: 110px
+      }
+      label+input{
+        background-color: rgb(219, 241, 248);
+      } 
+  
+    </style>
+  </head>
+  <body>
+    <h1>Rate a product</h1>
+    <form>
+      <div>
+        <label for="product" class="star">Product </label>
+        <input type="text" name="product" required />
+      </div>
+
+      <div>
+        <label for="date" class="star">Purchase Date </label>
+        <input type="date" name="date" required="true" />
+      </div>
+
+      <div>
+        <label for="rating" class="star">Rating </label>
+        <input type="text" name="rating" required />
+      </div>
+
+      <div>
+        <label for="rating">Comments</label>
+        <textarea cols="20" rows="3"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Submit Rating" />
+      </div>
+    </form>
+  </body>
+</html>
