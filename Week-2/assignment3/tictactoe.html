@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        grid-gap: 10px;
+        align-items: stretch;
+      }
+      .box {
+        border: 1px solid green;
+        font-size: 100px;
+        /* text-align: center; */
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box red">X</div>
+      <div class="box">O</div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box">O</div>
+      <div class="box"></div>
+      <div class="box">O</div>
+      <div class="box"></div>
+      <div class="box red">X</div>
+    </div>
+  </body>
+</html>
