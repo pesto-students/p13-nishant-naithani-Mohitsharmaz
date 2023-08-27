@@ -1,0 +1,77 @@
+.table {
+   width: 400px;
+   height: 300px;
+
+   /* Part of your solution goes here */
+   /* margin: 100px; */
+}
+
+.cardRed {
+   color: red;
+   position: absolute;
+   left: 80px;
+   top: 40px;
+}
+
+.cardBlack {
+   color: black;
+   z-index: 1;
+ 
+}
+
+.card {
+   background-color: whitesmoke;
+   border: 1px solid black;         
+   width: 100px;
+   height: 160px;
+   line-height: 160px;
+   text-align: center;
+   font-size: 80px;
+
+   /* Part of your solution goes here */
+   position: absolute;
+   border-radius: 5px;
+   box-shadow: 3px 3px black;
+}      
+
+.cardTop {
+   /* Part of your solution goes here */
+
+}
+
+.cardBottom {
+   /* Part of your solution goes here */
+
+}
+
+.heart {
+   color: red;
+   font-size: 28px; 
+   width: 30px;
+   height: 30px;  
+   line-height: 30px;
+}
+
+.spade {
+   color: black;
+   font-size: 36px; 
+   width: 30px;
+   height: 30px;  
+   line-height: 30px;
+}
+
+.topLeft {
+   /* Part of your solution goes here */
+   position: absolute;
+   left: 0;
+   top: 0;
+
+}
+
+.bottomRight {
+   /* Part of your solution goes here */
+   position: absolute;
+   right: 0;
+   bottom: 0;
+
+}
